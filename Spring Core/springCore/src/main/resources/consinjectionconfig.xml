@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean class="org.example.consinjection.Certificate" name="certi">
+    <constructor-arg value="AWS certification"/>
+</bean>
+    <bean class="org.example.consinjection.Person" name="person">
+        <constructor-arg value="rahul"/>
+        <constructor-arg value="65"/>
+        <constructor-arg ref="certi"/>
+        <constructor-arg>
+            <list>
+                <value>55</value>
+                <value>67</value>
+                <value>78</value>
+                <value>89</value>
+                <value>96</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+
+</beans>

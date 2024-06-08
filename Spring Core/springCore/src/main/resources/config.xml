@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--value as element or tag here I have inserted -->
+    <bean class="org.example.Student" name="student1">
+        <property name="id">
+            <value> 33443</value>
+        </property>
+        <property name="name">
+            <value>rahul yadav</value>
+        </property>
+        <property name="address">
+            <value>sitamarhi</value>
+        </property>
+    </bean>
+    <!--value as attribute here I have inserted -->
+    <bean class="org.example.Student" name="student2">
+        <property name="id" value="234"/>
+        <property name="name" value="karthik"/>
+        <property name="address" value="bangalore"/>
+    </bean>
+
+
+</beans>
