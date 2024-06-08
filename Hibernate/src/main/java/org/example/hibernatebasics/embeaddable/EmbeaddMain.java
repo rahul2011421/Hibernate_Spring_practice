@@ -1,5 +1,6 @@
-package org.example.hibernatebasics;
+package org.example.hibernatebasics.embeaddable;
 
+import org.example.hibernatebasics.Student;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

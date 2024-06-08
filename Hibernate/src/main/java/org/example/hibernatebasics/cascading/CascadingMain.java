@@ -1,5 +1,7 @@
-package org.example.mapping.onetomany;
+package org.example.hibernatebasics.cascading;
 
+import org.example.mapping.onetomany.Answer;
+import org.example.mapping.onetomany.Question;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -14,7 +16,7 @@ public class CascadingMain {
         cfg.configure("hibernate.cfg.xml");
         SessionFactory factory=cfg.buildSessionFactory();
         Question q1=new Question();
-        q1.setQuestionId(000);
+        q1.setQuestionId(34254);
         q1.setQuestion("what is cascading ?........");
         Answer a1=new Answer(324,"cascading make saving things and deleting easier in one call");
         Answer a2=new Answer(3465,"cascading done works easier for programmers");

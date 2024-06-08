@@ -1,4 +1,4 @@
-package org.example.hibernatebasics;
+package org.example.hibernatebasics.embeaddable;
 
 import javax.persistence.Embeddable;
 

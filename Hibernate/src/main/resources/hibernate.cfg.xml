@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://Localhost:3306/myhiber</property>
         <property name="connection.username">root</property>
         <property name="connection.password">Maveric</property>
@@ -12,12 +12,14 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
-<!--        <mapping class="org.example.hibernatebasics.Student"/>-->
+        <property name="cache.use_second_level_cache">true</property>
+        <property name="cache.region.factory_class">org.hibernate.cache.ehcache.internal.EhcacheRegionFactory</property>
+        <mapping class="org.example.hibernatebasics.Student"/>
 <!--        <mapping class="org.example.hibernatebasics.Address"/>-->
 <!--        <mapping class="org.example.mapping.onetoone.Question"/>-->
 <!--        <mapping class="org.example.mapping.onetoone.Answer"/>-->
-        <mapping class="org.example.mapping.onetomany.Question"/>
-        <mapping class="org.example.mapping.onetomany.Answer"/>
+<!--        <mapping class="org.example.mapping.onetomany.Question"/>-->
+<!--        <mapping class="org.example.mapping.onetomany.Answer"/>-->
 <!--        <mapping class="org.example.mapping.manytomany.Course"/>-->
 <!--        <mapping class="org.example.mapping.manytomany.Student"/>-->
     </session-factory>
