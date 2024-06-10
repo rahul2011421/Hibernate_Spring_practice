@@ -4,11 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Hibernate/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring Core/SpringORM/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring Core/springCore/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring Core/SpringJdbc/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring boot/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
