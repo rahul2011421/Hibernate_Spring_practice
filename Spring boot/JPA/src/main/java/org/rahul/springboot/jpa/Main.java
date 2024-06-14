@@ -34,7 +34,7 @@ public class Main {
 //        User user=userRepository.save(user1);
 //        System.out.println(user1);
 
-//        // Saving multiple user
+        // Saving multiple user
 //        List<User> users=new ArrayList<>();
 //        users.add(user1);
 //        users.add(user2);
@@ -68,11 +68,14 @@ public class Main {
 //        System.out.println(user);
 
         //delete all item
-        userRepository.deleteAll();
-        Iterable<User> itr=userRepository.findAll();
-        itr.forEach(user1 -> {
-            System.out.println(user1);
-        });
-
+//        userRepository.deleteAll();
+//        Iterable<User> itr=userRepository.findAll();
+//        itr.forEach(user1 -> {
+//            System.out.println(user1);
+//        });
+        List<User> user=userRepository.findByName("Manogyan");
+        System.out.println(user);
+        List<User> users=userRepository.findByNameAndCity("kunal","bengaluru");
+        System.out.println(users);
     }
 }
