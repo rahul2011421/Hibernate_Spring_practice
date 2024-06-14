@@ -73,9 +73,26 @@ public class Main {
 //        itr.forEach(user1 -> {
 //            System.out.println(user1);
 //        });
-        List<User> user=userRepository.findByName("Manogyan");
-        System.out.println(user);
-        List<User> users=userRepository.findByNameAndCity("kunal","bengaluru");
-        System.out.println(users);
+//        List<User> user=userRepository.findByName("Manogyan");
+//        System.out.println(user);
+//        List<User> users=userRepository.findByNameAndCity("rahul Yadav","bhadohi");
+//        users.forEach(user1->{
+//            System.out.println(user1);
+//        });
+
+        // Executing Query
+//        List<User> users=userRepository.getAllUsers();
+//        users.forEach(user -> {
+//            System.out.println(user);
+//        });
+        List<User> users=userRepository.getAllUserByName("Rahul Yadav");
+        users.forEach(user -> {
+            System.out.println(user);
+        });
+        System.out.println("__________________________________________");
+        List<User> users1=userRepository.fetchAllUsers();
+        users1.forEach(user -> {
+            System.out.println(user);
+        });
     }
 }

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f6253a6-a42c-4854-89f7-6a0ffd8c4db5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../DevTools/src/main/java/org/rahul/springboot/devtools/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JPA/src/main/java/org/rahul/springboot/jpa/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/src/main/java/org/rahul/springboot/jpa/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JPA/src/main/java/org/rahul/springboot/jpa/dao/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/src/main/java/org/rahul/springboot/jpa/dao/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/target/classes/org/rahul/springboot/jpa/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/target/classes/org/rahul/springboot/jpa/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/target/classes/org/rahul/springboot/jpa/dao/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/target/classes/org/rahul/springboot/jpa/dao/UserRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
