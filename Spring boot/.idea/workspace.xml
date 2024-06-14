@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f6253a6-a42c-4854-89f7-6a0ffd8c4db5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JPA/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPA/src/main/java/org/rahul/springboot/jpa/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPA/src/main/java/org/rahul/springboot/jpa/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JPA/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/springboot/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6f6253a6-a42c-4854-89f7-6a0ffd8c4db5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +81,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/JPA/src/main/java/org/rahul/springboot/jpa/Main.java</url>
-          <line>43</line>
+          <line>76</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
