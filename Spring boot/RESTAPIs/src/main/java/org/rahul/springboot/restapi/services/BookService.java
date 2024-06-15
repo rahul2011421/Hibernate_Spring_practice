@@ -19,8 +19,13 @@ public class BookService {
         return list;
     }
     public Book getBookById(int id){
-        Book book;
-        book=list.stream().filter(e->e.getB_id()==id).findFirst().get();
+        Book book=null;
+        try {
+            book = list.stream().filter(e -> e.getB_id() == id).findFirst().get();
+            return book;
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         return book;
     }
     public Book addBook(Book book){
